@@ -1,0 +1,226 @@
+#root {
+  padding-right: 0px;
+}
+
+body {
+  margin: 0px;
+  padding-bottom: -100px;
+}
+
+.App {
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+  font-size: 1.2rem;
+  color: black;
+}
+
+#mainNavbar .nav-link {
+  color: black;
+}
+
+#mainNavbar .nav-link:hover {
+  color: rgb(30,144,255);
+}
+
+#mainNavbar {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar-avatar {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+#headingGroup h1 {
+  font-size: 4rem;
+}
+
+.navbar.scrolled {
+  background: white;
+  transition: background 500ms;
+}
+
+.landing-main {
+  height: 100vh;
+  position: relative;
+  background: url('img/welcome-1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 30vh;
+}
+
+.landing-inner h1 {
+  font-size: 4.5rem;
+  letter-spacing: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.landing-inner h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+}
+
+#showcase {
+  background: url('./img/back1.jpg') no-repeat top center fixed/cover;
+  position: relative;
+  min-height: 400px;
+  color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#showcase .overlay {
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#listings {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#showcase-inner {
+  background: rgb(173,216,230);
+  position: relative;
+  overflow: hidden;
+  min-height: 100px;
+}
+
+.carousel-images {
+  height: 400px;
+  width: 800px;
+}
+
+#item-body {
+  margin-top: 10vh;
+}
+
+#item-infos {
+  padding-left: 2rem;
+}
+
+.login-inner {
+  padding-top: 20vh;
+}
+
+.register-inner {
+  padding-top: 10vh;
+}
+
+.auth-form {
+  width: 25%;
+  min-width: 300px;
+}
+
+.auth-form h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color: rgb(211,211,211);
+}
+
+.form-auth .form-group .input-label {
+  font-size: 1rem;
+  color: rgb(211,211,211);
+}
+
+.jumbotron {
+  height: 300px;
+  background: url('img/jumbotron.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.welcome-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar-input {
+  border: 1px solid white;
+}
+
+.upload-item-photos {
+  min-height: 100vh;
+  margin-top: 15px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card {
+  width: 18rem;
+}
+
+#dark-button {
+  background: #10284e;
+  color: white;
+}
+
+#like-button {
+  background: red;
+  color: white;
+}
+
+#dashboard-profile {
+  min-height: 400px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#dashboard-items {
+  min-height: 400px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer {
+  background-color: black;
+}
+
+@media (max-width: 1200px) {
+
+  #showcase-title {
+    font-size: 2rem;
+  }
+
+  #headingGroup h1 {
+    font-size: 2rem;
+  } 
+
+  .landing-inner h1 {
+    font-size: 3rem;
+  }
+
+  .jumbotron {
+    padding-top: 100px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 700px;
+  }
+
+  #showcase .overlay {
+    height: 600px;
+  }
+}
+

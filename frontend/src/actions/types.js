@@ -1,0 +1,11 @@
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const GET_ERRORS = 'GET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const GET_PROFILE = 'GET_PROFILE';
+export const GET_CURRENT_PROFILE = 'GET_CURRENT_PROFILE';
+export const CLEAR_CURRENT_PROFILE = 'CLEAR_CURRENT_PROFILE';
+export const GET_ITEM = 'GET_ITEM';
+export const GET_CURRENT_ITEMS = 'GET_CURRENT_ITEMS';
+export const GET_ITEMS = 'GET_ITEMS';
+export const GET_AMOUNT = 'GET_AMOUNT';
+export const GET_PAGE = 'GET_PAGE';

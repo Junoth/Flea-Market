@@ -1,0 +1,23 @@
+version: '3'
+services: 
+  back-end:
+    container_name: backend
+    restart: always
+    build: .
+    ports:
+      - '5001:5001'
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+  front-end:
+    container_name: frontend-react
+    restart: always
+    image: frontend-react
+    ports:
+      - '3000:3000'
+    links:
+      - back-end
